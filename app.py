@@ -27,7 +27,7 @@ st.set_page_config(page_title="Stock Market Analysis Dashboard", page_icon="📊
 st.markdown("# 📈 Stock Market Analysis Dashboard")
 st.write("Enter the stock symbol (e.g., HAL, IBM):")
 
-symbol = st.text_input("", placeholder="Enter stock symbol", max_chars=10).strip().upper()
+symbol = st.text_input("", placeholder="Enter stock symbol", max_chars=30).strip().upper()
 
 if st.button("Analyze Stock") and symbol:
     with st.status("Fetching stock data..."):
