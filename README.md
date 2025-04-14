@@ -10,16 +10,24 @@ Stock Summarizer is a Python-based application designed to fetch and summarize s
 
 # Installation
 * Clone the repository:
+    ```bash
     git clone https://github.com/Kushalkush12/Stock-Summarizer.git
     cd Stock-Summarizer
+    ```
 * Create a virtual environment (optional but recommended):
+  ``` bash
     python3 -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```
 * Install the required packages:
+  ``` bash
     pip install -r requirements.txt
+  ```
 * Usage
     Run the application using the following command:​
+  ``` bash
     streamlit run app.py
+  ```
   
 Upon execution, the application will prompt you to enter stock tickers. After inputting the desired tickers, it will fetch the relevant data and display summarized information for each.​
 
